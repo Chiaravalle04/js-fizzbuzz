@@ -1,0 +1,48 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style */
+body {
+    background-color: darkblue;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex; 
+    gap: 15px; 
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.square {
+    width: calc(100% / 6);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+}
+.yellow {
+    background-color: yellowgreen;
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
+
+.sandy {
+    background-color: sandybrown;
+}
+
+.turq {
+    background-color: turquoise;
+}
